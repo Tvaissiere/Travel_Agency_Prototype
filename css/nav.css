@@ -1,45 +1,74 @@
 nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 40px;
-      height: 60px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 60px;
+}
 
-    .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 30px;
-    }
+.logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
 
-    .nav-links li {
-      position: relative;
-    }
+.logo img {
+  max-width: 60px;
+}
 
-    .nav-links a {
-      padding: 10px;
-      display: block;
-    }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
 
-    .dropdown {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      list-style: none;
-      min-width: 150px;
-      display: none;
-    }
+.nav-links li {
+  position: relative;
+}
 
-    .dropdown li a {
-      padding: 10px;
-    }
+.nav-links a {
+  padding: 10px;
+  display: block;
+}
 
-    .nav-links li:hover .dropdown {
-      display: block;
-    }
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  min-width: 150px;
+  display: none;
+}
 
-    .right-section {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
+.dropdown li a {
+  padding: 10px;
+}
+
+.nav-links li:hover .dropdown {
+  display: block;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchbar{
+  padding: 10.5px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.login-btn {
+  padding: 12px 26px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #fac100, #f36b01);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(255, 106, 0, 0.35);
+}
