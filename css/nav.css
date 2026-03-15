@@ -1,0 +1,45 @@
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      height: 60px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links li {
+      position: relative;
+    }
+
+    .nav-links a {
+      padding: 10px;
+      display: block;
+    }
+
+    .dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      list-style: none;
+      min-width: 150px;
+      display: none;
+    }
+
+    .dropdown li a {
+      padding: 10px;
+    }
+
+    .nav-links li:hover .dropdown {
+      display: block;
+    }
+
+    .right-section {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
