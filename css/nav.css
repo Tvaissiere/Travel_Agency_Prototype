@@ -95,3 +95,8 @@ nav {
   transition: all 0.25s ease;
   box-shadow: 0 4px 10px rgba(255, 106, 0, 0.35);
 }
+
+.login-btn:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(255, 106, 0, 0.4);
+}

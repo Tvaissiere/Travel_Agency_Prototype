@@ -1,84 +1,64 @@
-<!-- TODO: Create responisive nav menu !-->
-<!-- NOTE: This will be included on pages using php so doesnt need the full html tags, they are just for dev !-->
+<nav>
+  <div class="logo">
+    <img src="assets/img/logo/main.png" alt="" />
+    <span class="travel">Travel</span><span class="agency">Agency</span>
+  </div>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nav</title>
-    <!-- Make sure to remove master when including via php so it isn't done twice -->
-    <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="../css/nav.css">
+  <ul class="nav-links">
+    <li>
+      <a href="#">Home</a>
+    </li>
 
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <!-- NOTE: This may need to be changed to the the path from the file it is included in -->
-        <img src="../assets/img/logo/main.png" alt="">
-        <span class="travel">Travel</span><span class="agency">Agency</span>
-      </div>
-
-      <ul class="nav-links">
-        <li>
-          <a href="#">Home</a>
-        </li>
-
-        <li>
-          <a href="#">Destinations</a>
-          <ul class="dropdown">
-            <li><a href="#">England</a></li>
-            <li><a href="#">Canada</a></li>
-            <li><a href="#">Spain</a></li>
-            <li><a href="#">France</a></li>
-            <li><a href="#">View All ></a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#">Flights</a>
-          <ul class="dropdown">
-            <li><a href="#">Current Flights</a></li>
-            <li><a href="#">Discounted Flights</a></li>
-            <li><a href="#">View All ></a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#">Hotels</a>
-          <ul class="dropdown">
-            <li><a href="#">Hotel Deals</a></li>
-            <li><a href="#">5 Star Hotels</a></li>
-            <li><a href="#">View All ></a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#">Packages</a>
-          <ul class="dropdown">
-            <li><a href="#">Family Packages</a></li>
-            <li><a href="#">Couples Packages</a></li>
-            <li><a href="#">Solo Packages</a></li>
-            <li><a href="#">Experience Packages</a></li>
-            <li><a href="#">View All ></a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#">About Us</a>
-          <ul class="dropdown">
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </li>
+    <li>
+      <a href="#">Destinations</a>
+      <ul class="dropdown">
+        <li><a href="#">England</a></li>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">Spain</a></li>
+        <li><a href="#">France</a></li>
+        <li><a href="#">View All ></a></li>
       </ul>
+    </li>
 
+    <li>
+      <a href="#">Flights</a>
+      <ul class="dropdown">
+        <li><a href="#">Current Flights</a></li>
+        <li><a href="#">Discounted Flights</a></li>
+        <li><a href="#">View All ></a></li>
+      </ul>
+    </li>
 
+    <li>
+      <a href="#">Hotels</a>
+      <ul class="dropdown">
+        <li><a href="#">Hotel Deals</a></li>
+        <li><a href="#">5 Star Hotels</a></li>
+        <li><a href="#">View All ></a></li>
+      </ul>
+    </li>
 
-      <div class="right-section">
-        <input type="text" class="searchbar" placeholder="Search..." />
-        <a href="#" class="login-btn">Login</a>
-      </div>
-    </nav>
-  </body>
-</html>
+    <li>
+      <a href="#">Packages</a>
+      <ul class="dropdown">
+        <li><a href="#">Family Packages</a></li>
+        <li><a href="#">Couples Packages</a></li>
+        <li><a href="#">Solo Packages</a></li>
+        <li><a href="#">Experience Packages</a></li>
+        <li><a href="#">View All ></a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#">About Us</a>
+      <ul class="dropdown">
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="right-section">
+    <input type="text" class="searchbar" placeholder="Search..." />
+    <a href="#" class="login-btn">Login</a>
+  </div>
+</nav>
