@@ -11,15 +11,16 @@
 
 <body>
     <?php include("inc/nav_lo.html"); ?>
-    <div class="hero-image">
+
+    <section class="hero-image">
         <img class="hero-media" src="assets/img/hero.png">
         <div class="hero-text">
             <h1>Explore Your Next Great Escape</h1>
             <p>Discover flights, stays, and curated travel packages built for unforgettable journeys.</p>
             <a href="#" class="hero-btn">Book Your Trip</a>
         </div>
-    </div>
-
+</section>
+    <?php include("inc/main_bar.html"); ?>
     <?php include("inc/footer.html"); ?>
 </body>
 
